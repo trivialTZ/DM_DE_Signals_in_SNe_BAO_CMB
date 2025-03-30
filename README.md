@@ -1,14 +1,27 @@
 # DM_DE_Signals_in_SNe_BAO_CMB
-Code for The Relation Between Dark Matter and Dynamical Dark Energy signals in Supernova, Baryon Acoustic Oscillation, and Cosmic Microwave Background datasets
-##  Note:
-- _numpy, matplotlib, scipy, joblib, tqdm, pickle, scipy, corner, pandas, astropy, chainconsumer_
 
-*   Figure1:
-corner
-*   Figure2 (**This figure may be abandon**):
-scipy, joblib, tqdm
-*   Figure3: pickle, scipy, pickle
-*  Figure4 (**This figure may be a placeholder, can discuss for other format for the chain-independent figure**): 
-scipy, corner, pandas
-*  Figure5: scipy, joblib, tqdm
-*  Figure6: momacolors _(can be replaced with matplotlib colorbars)_
+This repository contains the code and analysis scripts accompanying the paper:
+
+**"Uniting the Observed Dynamical Dark Energy Preference with the Discrepancies in Ωₘ and H₀ Across Cosmological Probes"**  
+[arXiv:2412.04430](https://arxiv.org/abs/2412.04430)
+
+
+The project investigates whether an underlying dynamical dark energy (w₀wₐCDM) cosmology can naturally produce the observed discrepancies in the matter density parameter (Ωₘ) and the Hubble constant (H₀) when individual cosmological probes—Type Ia Supernovae (SNe), Baryon Acoustic Oscillations (BAO), and the Cosmic Microwave Background (CMB)—are analyzed under the ΛCDM framework.
+
+
+##  Note:
+- _numpy, matplotlib, scipy, joblib, tqdm, pickle, scipy, corner, pandas, astropy, chainconsumer, emcee_
+
+- **/notebooks**  
+  Jupyter notebooks for:
+  - Reproducing the key figures from the paper
+  - Step-by-step demonstration of the analysis workflow
+
+- **/data**  
+  (Directory for any auxiliary data files needed for simulations & plotting.
+
+## Citation
+
+If you use this code in your research, please cite our paper:
+
+> Tang, TZ, Brout, D., Karwal, T., Chang, C., Miranda, V., & Vincenzi, M. (2025). *Uniting the Observed Dynamical Dark Energy Preference with the Discrepancies in Ωₘ and H₀ Across Cosmological Probes*. [arXiv:2412.04430](https://arxiv.org/abs/2412.04430).
