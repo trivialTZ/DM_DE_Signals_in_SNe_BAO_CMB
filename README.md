@@ -29,15 +29,16 @@ The project investigates whether an underlying dynamical dark energy (w₀wₐCD
 
 ---
 
-#### External Files for Appendix B (Figure 5)
+#### External Files for Inv or SNe matrix & Appendix B (Figure 5)
 
 For generating **Figure 5** in **Appendix B** of the paper (grid-based exploration of the w₀–wₐ parameter space), please also refer to the following three data files hosted at:
 
-🔗 [Google Drive Folder (Figure 5 files)](https://drive.google.com/drive/folders/1AYAAuGNDkOIizO1JJkExIObTxeTr0zRL?usp=sharing)
+🔗 [Google Drive Folder (SNe matrix Figure 5 files)](https://drive.google.com/drive/folders/1AYAAuGNDkOIizO1JJkExIObTxeTr0zRL?usp=sharing)
 
 - `fw0wacdm_SN+eBOSS+3x2pt.txt`
 - `fw0wacdm_planck+SN+eBOSS+3x2pt.txt`
 - `fw0wacdm_SN_emcee.txt`
+- `inv_cov_matrix_sne.npy`
 
 These files provide precomputed likelihood evaluations and MCMC samples used to generate the blue and orange contours in Figure 5.
 
