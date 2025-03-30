@@ -1,7 +1,7 @@
 # DM_DE_Signals_in_SNe_BAO_CMB
 Code for The Relation Between Dark Matter and Dynamical Dark Energy signals in Supernova, Baryon Acoustic Oscillation, and Cosmic Microwave Background datasets
 ##  Note:
-ALL NEED _numpy, matplotlib_
+- _numpy, matplotlib, scipy, joblib, tqdm, pickle, scipy, corner, pandas, astropy, chainconsumer_
 
 *   Figure1:
 corner
