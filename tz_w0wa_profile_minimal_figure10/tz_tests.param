@@ -1,0 +1,50 @@
+#------Experiments to test (separated with commas)-----
+# The following likelihoods are a suggested setup for data from Pantheon Plus alone or with SH0ES.
+# The likelihoods cannot be combined with each other or with H0 or Mb priors.
+# Please cite the relevant references: Pantheon+ arXiv:2202.04077 and SH0ES arXiv:2112.04510
+# See the likelihoods or README in the likelihood directories for more information.
+#data.experiments=['Pantheon_Plus']
+data.experiments=[ 'TZ_DESY5_SNe', 'TZ_R_lA', 'TZ_bao_DESI_Y1_DV', 'TZ_bao_DESI_Y1_DA_DH']
+
+# Cosmological parameters list
+# Priors from table 9 of arXiv: 2007.08991
+data.parameters['Omega_m']    = [ 0.300,   0.1, 0.9,     0.002,    1, 'cosmo']
+data.parameters['H0']      = [  70,   20, 100,      0.2, 1, 'cosmo']
+data.parameters['w0_fld']       = [    -1,     -3,    1,    0.2,    1, 'cosmo']
+data.parameters['wa_fld']       = [     0,     -3,    2,    0.2,    1, 'cosmo']
+
+# data.parameters['Omega_k']    = [ 0.0,   0., 0.9,     0.02,    1, 'cosmo']
+
+
+# Nuisance parameters list
+# data.parameters['M']	   = [-19.2, -30, -10, 0.5,  1, 'nuisance']
+
+# Derived parameters list
+data.parameters['Omega0_fld'] = [0,       None, None, 0,1,  'derived']
+
+# Fixed cosmological parameters, setting to Planck 2018 Table 2, TTTEEE+lowEE+lensing+BAO 
+# data.cosmo_arguments['H0'] =  67.66
+data.cosmo_arguments['n_s'] =  0.9665
+data.cosmo_arguments['ln10^{10}A_s'] = 3.047
+data.cosmo_arguments['tau_reio'] = 0.0561
+data.cosmo_arguments['omega_b'] = 0.02218
+# data.cosmo_arguments['omega_cdm'] = 0.11933
+# Three massive neutrinos with sum(mnu)=0.06eV and Neff = 3.044
+data.cosmo_arguments['N_ur'] = 0.00441
+data.cosmo_arguments['N_ncdm'] = 1
+data.cosmo_arguments['deg_ncdm'] = 3
+data.cosmo_arguments['m_ncdm'] = 0.02
+data.cosmo_arguments['T_ncdm'] = 0.71611
+
+data.cosmo_arguments['Omega_Lambda'] = 0.0
+data.cosmo_arguments['Omega_scf'] = 0.0
+data.cosmo_arguments['Omega_k'] = 0.0
+data.cosmo_arguments['fluid_equation_of_state'] = 'CLP'
+
+
+#------ Mcmc parameters ----
+
+data.N=100
+data.write_step=5
+
+
