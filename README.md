@@ -99,4 +99,4 @@ pip install numpy matplotlib scipy joblib tqdm pickle corner pandas astropy chai
 
 If you use this code in your research, please cite:
 
-> Tang, TZ, Brout, D., Karwal, T., Chang, C., Miranda, V., & Vincenzi, M. (2025). *Uniting the Observed Dynamical Dark Energy Preference with the Discrepancies in Ωₘ and H₀ Across Cosmological Probes*. [arXiv:2412.04430](https://arxiv.org/abs/2412.04430).
+> Tang, TZ, Brout, D., Karwal, T., Chang, C., Miranda, V., & Vincenzi, M. (2025). *Uniting the Observed Dynamical Dark Energy Preference with the Discrepancies in Ωm and H₀ Across Cosmological Probes*. [arXiv:2412.04430](https://arxiv.org/abs/2412.04430).
