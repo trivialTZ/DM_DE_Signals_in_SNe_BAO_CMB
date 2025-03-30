@@ -8,6 +8,16 @@ This repository contains the code and analysis scripts accompanying the paper:
 The project investigates whether an underlying dynamical dark energy (w₀wₐCDM) cosmology can naturally produce the observed discrepancies in the matter density parameter (Ωₘ) and the Hubble constant (H₀) when individual cosmological probes—Type Ia Supernovae (SNe), Baryon Acoustic Oscillations (BAO), and the Cosmic Microwave Background (CMB)—are analyzed under the ΛCDM framework.
 
 ---
+<div align="center">
+  <img src="data/combined_plot.png" alt="Figure 3" width="80%"/>
+</div>
+
+**Figure 3 of [arXiv:2412.04430](https://arxiv.org/abs/2412.04430):** Marginalized ΛCDM fits for **H₀** and **Ωₘ** to mock datasets in *w₀wₐCDM* cosmologies.
+- **Left panel:** ΛCDM Ωₘ distributions for SNe, BAO, and CMB. Gray dashed curve: true Ωₘ. Vertical lines: observed Ωₘ values from DESI-Y1 (blue), DES-SN5YR (yellow), and Planck18 (pink).
+- **Right panel:** ΛCDM H₀ distributions for BAO and CMB. Gray dashed curve: w₀wₐCDM H₀. Right sub-panel shows ΔH₀ (difference in H₀ between BAO and CMB), with red dashed line as the observed ΔH₀ in data.
+
+
+---
 
 ## Repository Structure
 
@@ -41,6 +51,21 @@ For generating **Figure 5** in **Appendix B** of the paper (grid-based explorati
 - `inv_cov_matrix_sne.npy`
 
 These files provide precomputed likelihood evaluations and MCMC samples used to generate the blue and orange contours in Figure 5.
+
+---
+
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 20%;">
+      <img src="data/bestw0wa_to_lcdm.png" alt="Figure: bestw0wa_to_lcdm" width="80%">
+    </td>
+    <td style="vertical-align: top; padding-left: 20px; font-size: 14px;">
+      <strong> Figure 1 of arXiv:2412.04430:</strong> Constraints on <strong>Ωₘ</strong> and <strong>H₀</strong> obtained by fitting <em>Λ</em>CDM to mock CMB, BAO, and SNe datasets generated in the DESI+DES-SN+Planck best-fit <em>w₀wₐ</em>CDM cosmology {<em>w₀</em> = –0.727, <em>wₐ</em> = –1.05, <strong>Ωₘ</strong> = 0.316, <strong>H₀</strong> = 67.24}. <br><br>
+      The contours represent the 68% and 95% confidence regions for each mock dataset individually: SNe (yellow), BAO (blue), and CMB (pink). This figure illustrates the <strong>Ωₘ</strong> and <strong>H₀</strong> discrepancies between different probes when fitting <em>Λ</em>CDM to data simulated in a dynamical <em>w₀wₐ</em>CDM cosmology.
+    </td>
+  </tr>
+</table>
+
 
 ---
 
